@@ -1,1 +1,124 @@
-<mxfile host="www.draw.io" modified="2019-11-16T08:30:44.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.2.6" etag="ZZWMadYiw3sl8PCy-D0J" type="github"><diagram id="zChnUbs21k4LyGYpCQM4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-16T08:52:54.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="nwUuJJutA5c_Ic5fNrZ3" version="12.2.6" type="github" pages="1">
+  <diagram id="zChnUbs21k4LyGYpCQM4" name="Page-1">
+    <mxGraphModel dx="1772" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-1" target="xyTuRlx1TsbYEwBtjV6D-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="75" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-255" y="20"/>
+              <mxPoint x="50" y="20"/>
+              <mxPoint x="50" y="63"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-5" value="&lt;span style=&quot;white-space: normal&quot;&gt;STEP 1&lt;br&gt;RMAppManager#submitApplictaion&lt;/span&gt;&lt;br&gt;START事件" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-3">
+          <mxGeometry x="-0.2361" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-1" value="ClientRMService&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="50" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-6" target="xyTuRlx1TsbYEwBtjV6D-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="100"/>
+              <mxPoint x="120" y="240"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-28" value="STEP 4&lt;br&gt;START事件" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-27">
+          <mxGeometry x="-0.2143" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="7" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-6" value="RMAppImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="50" width="165" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-8" target="xyTuRlx1TsbYEwBtjV6D-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="80" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-180" y="185"/>
+              <mxPoint x="-180" y="75"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-25" value="STEP 3&lt;br&gt;APP_SAVED事件" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-24">
+          <mxGeometry x="0.041" y="2" relative="1" as="geometry">
+            <mxPoint x="27" y="2" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-8" value="RMStateStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="160" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-15" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="xyTuRlx1TsbYEwBtjV6D-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="90" as="sourcePoint"/>
+            <mxPoint x="-260" y="230" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="70" y="90"/>
+              <mxPoint x="70" y="185"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-23" value="STEP 2&lt;br&gt;RMStateStore#storeApplication" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-15">
+          <mxGeometry x="0.2974" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-26" target="xyTuRlx1TsbYEwBtjV6D-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="210"/>
+              <mxPoint x="510" y="210"/>
+              <mxPoint x="510" y="253"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-32" value="STEP 5&lt;br&gt;APP_ADDED事件" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-30">
+          <mxGeometry x="-0.0462" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-26" target="xyTuRlx1TsbYEwBtjV6D-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-36" value="STEP 7&lt;br&gt;APP_ACCEPTED事件" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-35">
+          <mxGeometry x="0.2429" y="3" relative="1" as="geometry">
+            <mxPoint x="2.5" y="-3" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-26" value="RMAppAttemptImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="240" width="165" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-29" target="xyTuRlx1TsbYEwBtjV6D-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="278"/>
+              <mxPoint x="510" y="320"/>
+              <mxPoint x="300" y="320"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-34" value="STEP 6&lt;br&gt;提交的App满足权限后&lt;br&gt;APP_ACCEPTED事件" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xyTuRlx1TsbYEwBtjV6D-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-29" value="ResourceScheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="165" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="xyTuRlx1TsbYEwBtjV6D-38" value="STEP 8&lt;br&gt;ResourceScheduler#allocate" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xyTuRlx1TsbYEwBtjV6D-26" target="xyTuRlx1TsbYEwBtjV6D-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-230" y="410" as="sourcePoint"/>
+            <mxPoint x="-180" y="360" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
