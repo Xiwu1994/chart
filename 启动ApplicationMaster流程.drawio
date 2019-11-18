@@ -1,12 +1,9 @@
-<mxfile host="www.draw.io" modified="2019-11-18T13:29:27.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="sQOHl7JRL5CGkCuvGPUT" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-18T14:24:28.717Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="36JX9ORzqAT2_iP54DAn" version="12.2.6" type="github" pages="1">
   <diagram id="zChnUbs21k4LyGYpCQM4" name="Page-1">
-    <mxGraphModel dx="2252" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="xyTuRlx1TsbYEwBtjV6D-80" value="RMAppImpl 状态变更&lt;br&gt;NEW-&amp;gt;NEW_SAVING（STEP 2）&lt;br&gt;NEW_SAVING-&amp;gt;SUBMITED（STEP 3）&lt;br&gt;SUBMITED-&amp;gt;ACCEPTED（STEP 7）&lt;br&gt;ACCEPTED-&amp;gt;RUNNING（STEP 24）&lt;br&gt;&lt;br&gt;RMAppAttemptImpl 状态变更&lt;br&gt;NEW-&amp;gt;SUBMITED（STEP 5）&lt;br&gt;SUBMITED-&amp;gt;SCHEDULED（STEP 7）&lt;br&gt;SCHEDULED-&amp;gt;ALLOCATED_SAVING（STEP 14）&lt;br&gt;ALLOCATED_SAVING-&amp;gt;ALLOCATED（STEP 15）&lt;br&gt;ALLOCATED-&amp;gt;LAUNCHED（STEP 18）&lt;br&gt;LAUNCHED-&amp;gt;RUNNING（STEP 23）&lt;br&gt;&lt;br&gt;RMContainerImpl 状态变更&lt;br&gt;NEW-&amp;gt;ALLOCATED （STEP 9）&lt;br&gt;ALLOCATED-&amp;gt;ACQUIRED （STEP 11）&lt;br&gt;ACQUIRED-&amp;gt;RUNNING （）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="190" width="400" height="263" as="geometry"/>
-        </mxCell>
         <mxCell id="tXMc1olfVPZyjSrxy6uh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXMc1olfVPZyjSrxy6uh-8" target="tXMc1olfVPZyjSrxy6uh-9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
